@@ -9,7 +9,6 @@ target 'LYK' do
 	pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'FBSDKShareKit'
-    pod 'RealmSwift'
 
 
   target 'LYKTests' do
