@@ -10,6 +10,7 @@
 		1ADAAC0E1D77E865ACEEF5B0 /* Pods_LYKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BA974DDC2DA9A2C4745EF /* Pods_LYKUITests.framework */; };
 		376F755C3D4CA766C99E5253 /* Pods_LYKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57EF7DE899E40327B657D54 /* Pods_LYKTests.framework */; };
 		5028C9611FD23F96008035D1 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028C9601FD23F96008035D1 /* ContactsTableViewController.swift */; };
+		5080931F1FD4353A004F4621 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080931E1FD4353A004F4621 /* Friend.swift */; };
 		50AFD23D1FD2388300C8B34F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFD23C1FD2388200C8B34F /* AppDelegate.swift */; };
 		50AFD23F1FD2388300C8B34F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFD23E1FD2388300C8B34F /* ViewController.swift */; };
 		50AFD2421FD2388300C8B34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AFD2401FD2388300C8B34F /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		3B1BA974DDC2DA9A2C4745EF /* Pods_LYKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA32834F894BF0117583F42 /* Pods_LYK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5028C9601FD23F96008035D1 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		5080931E1FD4353A004F4621 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		50AFD2391FD2388200C8B34F /* LYK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFD23C1FD2388200C8B34F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50AFD23E1FD2388300C8B34F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5028C9601FD23F96008035D1 /* ContactsTableViewController.swift */,
+				508093201FD43563004F4621 /* Model */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -116,6 +119,14 @@
 				50AFD23E1FD2388300C8B34F /* ViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		508093201FD43563004F4621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5080931E1FD4353A004F4621 /* Friend.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		50AFD2301FD2388200C8B34F = {
@@ -391,7 +402,6 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -400,7 +410,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,6 +507,7 @@
 				50AFD23F1FD2388300C8B34F /* ViewController.swift in Sources */,
 				50AFD23D1FD2388300C8B34F /* AppDelegate.swift in Sources */,
 				5028C9611FD23F96008035D1 /* ContactsTableViewController.swift in Sources */,
+				5080931F1FD4353A004F4621 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

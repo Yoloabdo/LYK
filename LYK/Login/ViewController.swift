@@ -15,7 +15,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var fbLoginBtn: FBSDKLoginButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        fbLoginBtn.readPermissions = ["public_profile", "email", "user_friends", "read_custom_friendlists"]
+        fbLoginBtn.readPermissions = ["public_profile", "email", "user_friends"]
     }
 
     override func didReceiveMemoryWarning() {
